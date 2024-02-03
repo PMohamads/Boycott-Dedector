@@ -24,6 +24,8 @@ public class ViewPagerAdaptor extends FragmentStateAdapter {
             case 3:
                 return new TeknolojiFragment();
             case 4:
+                return new KozmatikFragment();
+            case 5:
                 return new HepsiFragment();
             default:
                 return new GiyimFragment();
@@ -33,6 +35,6 @@ public class ViewPagerAdaptor extends FragmentStateAdapter {
 
     @Override
     public int getItemCount() {
-        return 5;
+        return 6;
     }
 }

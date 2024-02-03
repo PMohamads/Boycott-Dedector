@@ -8,6 +8,7 @@
     android:background="@color/red"
     tools:context=".CustomerPageActivity">
 
+
     <TextView
         android:id="@+id/customername"
         android:layout_width="wrap_content"
@@ -85,7 +86,6 @@
             android:text="Gida"
             tools:layout_editor_absoluteX="94dp"
             tools:layout_editor_absoluteY="59dp" />
-
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -96,6 +96,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tekno"/>
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kozma"/>
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -111,7 +115,35 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tablelayout"
         app:layout_constraintVertical_bias="1.0"
-        tools:layout_editor_absoluteX="-16dp" />
+        tools:layout_editor_absoluteX="-16dp" >
+
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+
+
+
+    <Button
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/skyblue"
+        android:clickable="true"
+        android:onClick="sikayetver"
+        android:layout_marginTop="720dp"
+        android:layout_marginLeft="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/images"
+        android:backgroundTintMode="src_atop"
+        >
+
+
+    </Button>
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

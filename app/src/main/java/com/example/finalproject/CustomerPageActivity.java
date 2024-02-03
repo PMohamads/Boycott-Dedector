@@ -150,4 +150,7 @@ public class CustomerPageActivity extends AppCompatActivity {
     public void ScanTheBARCODE(View view) {
         ScanMethod();
     }
+
+    public void sikayetver(View view) {
+    }
 }
